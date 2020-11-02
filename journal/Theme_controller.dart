@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-//src:https://stackoverflow.com/questions/53105320/how-to-load-theme-at-beginning-in-fluttter/53107519#53107519
-// I hate to use something from the web but I couldnt get the prefrences to save on my own with the videos
-
 class ThemeController extends ChangeNotifier {
   static const themePrefKey = 'theme';
 
